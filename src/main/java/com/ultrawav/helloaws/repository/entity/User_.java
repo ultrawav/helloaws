@@ -1,9 +1,7 @@
-package com.ultrawav.helloaws.repository.metamodel;
+package com.ultrawav.helloaws.repository.entity;
 
 import javax.persistence.metamodel.SingularAttribute;
 import javax.persistence.metamodel.StaticMetamodel;
-
-import com.ultrawav.helloaws.repository.entity.User;
 
 @StaticMetamodel(User.class)
 public class User_ {

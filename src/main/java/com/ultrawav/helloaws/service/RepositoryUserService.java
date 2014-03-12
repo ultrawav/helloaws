@@ -21,4 +21,11 @@ public class RepositoryUserService implements UserSearchService {
 	public List<User> searchUser(String searchTerm) {
 		return userRepository.findAll(UserSpecifications.nameIsLike(searchTerm));
 	}
+
+	@Override
+	public List<User> searchUserAll() {
+		return userRepository.findAll();
+	}
+	
+	
 }

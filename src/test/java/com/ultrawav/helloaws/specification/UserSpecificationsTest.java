@@ -20,7 +20,7 @@ import org.junit.Test;
 import org.springframework.data.jpa.domain.Specification;
 
 import com.ultrawav.helloaws.repository.entity.User;
-import com.ultrawav.helloaws.repository.metamodel.User_;
+import com.ultrawav.helloaws.repository.entity.User_;
 import com.ultrawav.helloaws.repository.specification.UserSpecifications;
 
 public class UserSpecificationsTest {
