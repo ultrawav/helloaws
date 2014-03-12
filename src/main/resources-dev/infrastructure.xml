@@ -45,8 +45,8 @@
         <property name="jpaVendorAdapter">
         	<bean class="org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter">
         		<property name="generateDdl" value="true" />
-        		<property name="database" value="MySQL" />
-        		<property name="databasePlatform" value="org.hibernate.dialect.MySQLDialect"/>
+        		<property name="database" value="HSQL" />
+        		<property name="databasePlatform" value="org.hibernate.dialect.HSQLDialect"/>
         	</bean>
         </property>
         <property name="persistenceUnitName" value="mytemplate" />
